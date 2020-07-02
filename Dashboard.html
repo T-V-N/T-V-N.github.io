@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Copy-trading module</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/bitcoin-Payment-1.css">
+    <link rel="stylesheet" href="assets/css/bitcoin-Payment.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="background-position: 0;background-size: 0;background-color: rgb(72,72,72);">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#" style="background-color: #ffffff;width: 224px;"><img src="assets/img/logo%20(2).png" style="width: 172px;"></a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="Dashboard.html"><i class="fas fa-tachometer-alt"></i><span style="font-size: 18px;">Dashboard</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="Copy-traders.html"><i class="fas fa-tachometer-alt"></i><span style="font-size: 18px;">Copy-traders</span></a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="Api%20Keys.html"><i class="fas fa-key"></i><span style="font-size: 18px;">API keys</span></a><a class="nav-link" href="Balance.html"><i class="fas fa-wallet"></i><span style="font-size: 18px;">Balance</span></a>
+                        <a
+                            class="nav-link" href="Settings.html"><i class="fas fa-wrench"></i><span style="font-size: 18px;">Settings</span></a>
+                    </li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"></li>
+                            <li class="nav-item" role="presentation"></li>
+                        </ul>
+                        <ul class="nav navbar-nav flex-nowrap ml-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-right p-3 animated--grow-in" role="menu" aria-labelledby="searchDropdown">
+                                    <form class="form-inline mr-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1" role="presentation"></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="Dashboard.html">Invest in copytrading</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="Copytrader%20dashboard.html">Become a trader</a></li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="badge badge-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in"
+                                    role="menu">
+                                    <h6 class="dropdown-header">alerts center</h6>
+                                    <a class="d-flex align-items-center dropdown-item" href="#">
+                                        <div class="mr-3">
+                                            <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                        </div>
+                                        <div><span class="small text-gray-500">December 12, 2019</span>
+                                            <p>A new monthly report is ready to download!</p>
+                                        </div>
+                                    </a>
+                                    <a class="d-flex align-items-center dropdown-item" href="#">
+                                        <div class="mr-3">
+                                            <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                        </div>
+                                        <div><span class="small text-gray-500">December 7, 2019</span>
+                                            <p>$290.29 has been deposited into your account!</p>
+                                        </div>
+                                    </a>
+                                    <a class="d-flex align-items-center dropdown-item" href="#">
+                                        <div class="mr-3">
+                                            <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                        </div>
+                                        <div><span class="small text-gray-500">December 2, 2019</span>
+                                            <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                        </div>
+                                    </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow" role="presentation">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Valerie Luna</span><img class="border rounded-circle img-profile" src="assets/img/avatars/avatar1.jpeg"></a>
+                                    <div
+                                        class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu"><a class="dropdown-item" role="presentation" href="Dashboard.html"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" role="presentation" href="Settings.html"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Settings</a>
+                                        <div
+                                            class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Logout</a></div>
+            </div>
+            </li>
+            </ul>
+        </div>
+        </nav>
+        <div class="container">
+            <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                <h3 class="text-dark mb-0">Dashboard</h3>
+            </div>
+            <div class="btn-toolbar" style="padding-bottom: 0px;margin-bottom: 12px;">
+                <div class="btn-group" role="group" style="padding-right: 0px;margin-right: 0px;"><button class="btn btn-primary" type="button" style="margin-right: 0px;background-color: rgb(72,72,72);">All time</button><button class="btn btn-primary" type="button" style="background-color: rgb(255,255,255);color: rgb(0,0,0);">Day</button>
+                    <button
+                        class="btn btn-primary" type="button" style="background-color: rgb(255,255,255);color: rgb(0,0,0);">Month</button><button class="btn btn-primary" type="button" style="background-color: rgb(255,255,255);color: rgb(0,0,0);">Year</button></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xl-6 mb-4">
+                    <div class="card shadow border-left-primary py-2">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span style="font-size: 16px;">Profit %</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"><span>130,91%</span></div>
+                                </div>
+                                <div class="col-auto"><i class="fas fa-percent fa-2x text-gray-300"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6 mb-4">
+                    <div class="card shadow border-left-success py-2">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span style="font-size: 16px;">Profit</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"><span>$215,000</span></div>
+                                </div>
+                                <div class="col-auto"><i class="fas fa-dollar-sign fa-2x text-gray-300"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 col-xl-12">
+                    <div class="card shadow mb-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary font-weight-bold m-0">Earnings Overview</h6>
+                            <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
+                                <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in"
+                                    role="menu">
+                                    <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" role="presentation" href="#">&nbsp;Action</a><a class="dropdown-item" role="presentation" href="#">&nbsp;Another action</a>
+                                    <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#">&nbsp;Something else here</a></div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area"><canvas data-bs-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Earnings&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;0&quot;,&quot;10000&quot;,&quot;5000&quot;,&quot;15000&quot;,&quot;10000&quot;,&quot;20000&quot;,&quot;15000&quot;,&quot;25000&quot;],&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;rgba(78, 115, 223, 1)&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;]},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                        </div>
+                    </div>
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3>Copytraders info</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <div>
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-1">Connected copytraders</a></li>
+                                            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-2">History</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div class="tab-pane" role="tabpanel" id="tab-1">
+                                                <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
+                                                    <table class="table my-0" id="dataTable">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Trader</th>
+                                                                <th>Exchange</th>
+                                                                <th>Total ROI</th>
+                                                                <th>Balance</th>
+                                                                <th>Yeild revenue</th>
+                                                                <th>Trading started</th>
+                                                                <th></th>
+                                                                <th></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">Vitalik</td>
+                                                                <td>BitMex</td>
+                                                                <td style="color: rgb(22,208,30);">+150%</td>
+                                                                <td>11BTC</td>
+                                                                <td>11%</td>
+                                                                <td>12.20.2020</td>
+                                                                <td><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);">Stop&nbsp;</button></td>
+                                                                <td><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);">More details</button></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">Vitalik</td>
+                                                                <td>BitMex</td>
+                                                                <td style="color: rgb(22,208,30);">+150%</td>
+                                                                <td>11BTC</td>
+                                                                <td>11%</td>
+                                                                <td>12.20.2020<br></td>
+                                                                <td><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);">Stop&nbsp;</button></td>
+                                                                <td><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);">More details</button></td>
+                                                            </tr>
+                                                            <tr></tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr></tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                                <p>Content for tab 1.</p>
+                                            </div>
+                                            <div class="tab-pane active" role="tabpanel" id="tab-2">
+                                                <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
+                                                    <table class="table my-0" id="dataTable">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Trader</th>
+                                                                <th>Exchange</th>
+                                                                <th>Total ROI</th>
+                                                                <th>Balance</th>
+                                                                <th>Yeild revenue</th>
+                                                                <th>Trading started</th>
+                                                                <th>Trading ended</th>
+                                                                <th></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">Vitalik</td>
+                                                                <td>BitMex</td>
+                                                                <td style="color: rgb(22,208,30);">+150%</td>
+                                                                <td>11BTC</td>
+                                                                <td>11%</td>
+                                                                <td>12.20.2020</td>
+                                                                <td>21.20.2020</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/avatars/avatar1.jpeg">Vitalik</td>
+                                                                <td>BitMex</td>
+                                                                <td style="color: rgb(22,208,30);">+150%</td>
+                                                                <td>11BTC</td>
+                                                                <td>11%</td>
+                                                                <td>12.20.2020<br></td>
+                                                                <td>19.20.2020</td>
+                                                            </tr>
+                                                            <tr></tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr></tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-white sticky-footer">
+        <div class="container my-auto">
+            <div class="text-center my-auto copyright"><span>Copyright © Copy-trading module 2020</span></div>
+        </div>
+    </footer>
+    </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/bitcoin-Payment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
